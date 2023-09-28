@@ -14,6 +14,7 @@ terraform {
     bucket         = "fishinho"
     key            = "terraform.tfstate"
     dynamodb_table = "fishinho"
+    region         = "us-east-1"
   }
 
 }
